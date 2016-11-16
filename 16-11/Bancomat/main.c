@@ -12,6 +12,9 @@ int main() {
         if (strstr(command, "statement") != NULL) {
             bnc_statement();
         }
+        if (strstr(command, "balance") != NULL) {
+            bnc_balance();
+        }
         if (strstr(command, "withdraw") != NULL){
             int value;
             printf("Insert value: ");
@@ -29,6 +32,9 @@ int main() {
         if (strstr(command, "quit") != NULL) {
             printf("Bye Bye! See you later! \n");
             esc = 0;
+        }
+        if (strstr(command, "menu") != NULL) {
+            printf("Menù:\n\tdeposit -> for deposit a value\n\twithdraw -> for withdraw a value\n\tstatement -> for bank statement\n");
         }
     }
 

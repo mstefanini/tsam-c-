@@ -19,11 +19,15 @@ int bnc_statement(){
             movString = "Withdrawal";
         else
             movString = "Deposit";
-        printf("\t Movement %d\n\t\t type: %s\n\t\t value: %d\n", movIndex, movString, mov->value);
+        printf("\t Movement %d\n\t\t type: %s\n\t\t value: %d\n\t\t time: %s\n", movIndex, movString, mov->value, asctime( localtime(&mov->time) ));
         mov = mov->next;
         movIndex++;
     }
     return 0;
+}
+
+int bnc_balance(){
+    printf("Account balance: %d\n", g_account);
 }
 
 int bnc_withdrawal(int value){
@@ -51,6 +55,7 @@ void bnc_list_addMovement(int type, int value){
     Movement *mov = malloc(sizeof(Movement));
     mov->type = type;
     mov->value = value;
+    mov->time = time(NULL);
     mov->prec = g_list_movement.last;
     mov->next = NULL;
     if(g_list_movement.first == NULL){
