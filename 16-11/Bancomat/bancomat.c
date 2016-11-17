@@ -8,7 +8,7 @@ int const PLAFOND = 10000;
 int g_account = 0;
 ListMovement g_list_movement;
 
-int bnc_statement(){
+int bnc_statement() {
     printf("Account statement: %d\n", g_account);
     printf("\tMovements:\n");
     Movement *mov = g_list_movement.first;
@@ -26,11 +26,11 @@ int bnc_statement(){
     return 0;
 }
 
-int bnc_balance(){
+int bnc_balance() {
     printf("Account balance: %d\n", g_account);
 }
 
-int bnc_withdrawal(int value){
+int bnc_withdrawal(int value) {
     if(value > g_account)
         printf("I can't do this operation: not enough money");
     else {
@@ -40,7 +40,7 @@ int bnc_withdrawal(int value){
     return 0;
 }
 
-int bnc_deposit(int value){
+int bnc_deposit(int value) {
     int accountTemp = g_account + value;
     if(accountTemp > PLAFOND)
         printf("I can't do this operation: plafond reach");
@@ -51,7 +51,7 @@ int bnc_deposit(int value){
     return 0;
 }
 
-void bnc_list_addMovement(int type, int value){
+void bnc_list_addMovement(int type, int value) {
     Movement *mov = malloc(sizeof(Movement));
     mov->type = type;
     mov->value = value;

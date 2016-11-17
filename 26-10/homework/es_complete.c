@@ -71,13 +71,13 @@ void es8(float *array, size_t size){
 }
 
 void es9(float *array, size_t size){
-    qsort(array, size, sizeof(int), compare_decr);
+    qsort(array, size, sizeof(float), compare_decr);
     for(int i=0; i<size; i++){
         printf("%.2f ", array[i]);
     }
     printf("\n");
 
-    qsort(array, size, sizeof(int), compare_incr);
+    qsort(array, size, sizeof(float), compare_incr);
     for(int i=0; i<size; i++){
         printf("%.2f ", array[i]);
     }
@@ -85,19 +85,9 @@ void es9(float *array, size_t size){
 }
 
 int compare_incr(const void *a, const void *b){
-    if(*((float*)a)<*((float*)b))
-        return -1;
-    if(*((float*)a)==*((float*)b))
-        return 0;
-    if(*((float*)a)>*((float*)b))
-        return 1;
+    return *(float*)a - *(float*)b;
 }
 
 int compare_decr(const void *a, const void *b){
-    if(*((float*)a)<*((float*)b))
-        return 1;
-    if(*((float*)a)==*((float*)b))
-        return 0;
-    if(*((float*)a)>*((float*)b))
-        return -1;
+    return -(*(float*)a - *(float*)b);
 }
