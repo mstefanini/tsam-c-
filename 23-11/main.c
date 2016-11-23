@@ -29,6 +29,7 @@ int main(){
             printf("\t es4 -> see result of es4\n");
             printf("\t es5 -> see result of es5\n");
             printf("\t es6 -> see result of es6\n");
+            printf("\t random -> generate new file\n");
         }
         if(strstr(command, "es1") != NULL){
             printf("Ris es1: \n");
@@ -53,6 +54,9 @@ int main(){
         if(strstr(command, "es6") != NULL){
             printf("Ris es6: \n");
             es6();
+        }
+        if(strstr(command, "random") != NULL){
+            es_random();
         }
     }
     return 0;

@@ -13,6 +13,7 @@ void es2(){
             fscanf(f, "%d\n", &number);
             sum += number;
         }
+        fclose(f);
     }else{
         printf("Error when opening file!");
     }

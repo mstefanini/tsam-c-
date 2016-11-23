@@ -22,6 +22,7 @@ void es6(){
             else if(number < min)
                 min = number;
         }
+        fclose(f);
     }else{
         printf("Error when opening file!");
     }

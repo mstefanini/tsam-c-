@@ -15,6 +15,7 @@ void es1(){
             fscanf(f, "%d\n", &number);
             printf("%d\n", number);
         }
+        fclose(f);
     }else{
         printf("Error when opening file!");
     }

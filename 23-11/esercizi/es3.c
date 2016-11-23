@@ -16,6 +16,7 @@ void es3(){
             else
                 sum -= number;
         }
+        fclose(f);
     }else{
         printf("Error when opening file!");
     }

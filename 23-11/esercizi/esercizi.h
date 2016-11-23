@@ -46,4 +46,10 @@ int es5(int test);
  */
 void es6();
 
+/*
+ * Definire una funzione random che scrive su un file da 1 a 1000 numeri random su cui
+ * poi eseguire gli esercizi
+ */
+void es_random();
+
 #endif //ESERCIZI_ESERCIZI_H
