@@ -34,5 +34,11 @@ int bnc_deposit(int value);
 int bnc_balance();
 
 void bnc_list_addMovement(int type, int value);
+void bnc_fileHandler(Movement *movement);
+
+void bnc_setup_file();
+void bnc_setup_addMovement(int type, int value, unsigned long time);
+
+void bnc_init();
 
 #endif //BANCOMAT_BANCOMAT_H

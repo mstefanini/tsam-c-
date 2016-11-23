@@ -4,6 +4,7 @@ int main() {
     int esc = 1;
 
     char *command = malloc(256* sizeof(char));
+    bnc_init();
     printf("Hi! This is a simple bancomat simulation made for a little course of C/C++\n"
                    "write menu for evoke this\n");
     while(esc) {
