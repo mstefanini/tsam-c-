@@ -12,11 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06522a32-556e-4616-af34-a94d92d5ef6a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../16-11/Bancomat/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../16-11/Bancomat/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bancomat.c" afterPath="$PROJECT_DIR$/bancomat.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bancomat.h" afterPath="$PROJECT_DIR$/bancomat.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.c" afterPath="$PROJECT_DIR$/main.c" />
     </list>
     <ignored path="Bancomat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,8 +58,8 @@
       <file leaf-file-name="bancomat.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bancomat.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="726">
-              <caret line="133" column="0" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
+            <state relative-caret-position="440">
+              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
               <folding>
                 <element signature="e#142#682#0" expanded="false" />
                 <element signature="e#755#976#0" expanded="false" />
@@ -71,6 +67,7 @@
                 <element signature="e#1880#2193#0" expanded="false" />
                 <element signature="e#2195#2820#0" expanded="false" />
                 <element signature="e#2822#3293#0" expanded="false" />
+                <element signature="e#3295#3335#0" expanded="false" />
                 <marker date="1479890504777" expanded="false" signature="1005:1238" ph="{...}" />
               </folding>
             </state>
@@ -416,12 +413,20 @@
       <workItem from="1479825654066" duration="11000" />
       <workItem from="1479825738572" duration="3294000" />
       <workItem from="1479830155575" duration="3648000" />
-      <workItem from="1479888950775" duration="1757000" />
+      <workItem from="1479888950775" duration="2100000" />
     </task>
+    <task id="LOCAL-00001" summary="final">
+      <created>1479890756324</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1479890756324</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22086000" />
+    <option name="totallyTimeSpent" value="22429000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
@@ -478,6 +483,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="final" />
+    <option name="LAST_COMMIT_MESSAGE" value="final" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="36" />
@@ -522,6 +531,7 @@
             <element signature="e#1880#2193#0" expanded="false" />
             <element signature="e#2195#2820#0" expanded="false" />
             <element signature="e#2822#3293#0" expanded="false" />
+            <element signature="e#3295#3335#0" expanded="false" />
             <marker date="1479890504777" expanded="false" signature="1005:1238" ph="{...}" />
           </folding>
         </state>
@@ -565,6 +575,7 @@
             <element signature="e#1880#2193#0" expanded="false" />
             <element signature="e#2195#2820#0" expanded="false" />
             <element signature="e#2822#3293#0" expanded="false" />
+            <element signature="e#3295#3335#0" expanded="false" />
             <marker date="1479890504777" expanded="false" signature="1005:1238" ph="{...}" />
           </folding>
         </state>
@@ -608,6 +619,7 @@
             <element signature="e#1880#2193#0" expanded="false" />
             <element signature="e#2195#2820#0" expanded="false" />
             <element signature="e#2822#3293#0" expanded="false" />
+            <element signature="e#3295#3335#0" expanded="false" />
             <marker date="1479890504777" expanded="false" signature="1005:1238" ph="{...}" />
           </folding>
         </state>
@@ -643,6 +655,7 @@
             <element signature="e#1880#2193#0" expanded="false" />
             <element signature="e#2195#2820#0" expanded="false" />
             <element signature="e#2822#3293#0" expanded="false" />
+            <element signature="e#3295#3335#0" expanded="false" />
             <marker date="1479890504777" expanded="false" signature="1005:1238" ph="{...}" />
           </folding>
         </state>
@@ -678,6 +691,7 @@
             <element signature="e#1880#2193#0" expanded="false" />
             <element signature="e#2195#2820#0" expanded="false" />
             <element signature="e#2822#3293#0" expanded="false" />
+            <element signature="e#3295#3335#0" expanded="false" />
             <marker date="1479890504777" expanded="false" signature="1005:1238" ph="{...}" />
           </folding>
         </state>
@@ -713,6 +727,7 @@
             <element signature="e#1880#2193#0" expanded="false" />
             <element signature="e#2195#2820#0" expanded="false" />
             <element signature="e#2822#3293#0" expanded="false" />
+            <element signature="e#3295#3335#0" expanded="false" />
             <marker date="1479890504777" expanded="false" signature="1005:1238" ph="{...}" />
           </folding>
         </state>
@@ -762,6 +777,7 @@
             <element signature="e#1880#2193#0" expanded="false" />
             <element signature="e#2195#2820#0" expanded="false" />
             <element signature="e#2822#3293#0" expanded="false" />
+            <element signature="e#3295#3335#0" expanded="false" />
             <marker date="1479890504777" expanded="false" signature="1005:1238" ph="{...}" />
           </folding>
         </state>
@@ -804,6 +820,7 @@
             <element signature="e#1880#2193#0" expanded="false" />
             <element signature="e#2195#2820#0" expanded="false" />
             <element signature="e#2822#3293#0" expanded="false" />
+            <element signature="e#3295#3335#0" expanded="false" />
             <marker date="1479890504777" expanded="false" signature="1005:1238" ph="{...}" />
           </folding>
         </state>
@@ -846,6 +863,7 @@
             <element signature="e#1880#2193#0" expanded="false" />
             <element signature="e#2195#2820#0" expanded="false" />
             <element signature="e#2822#3293#0" expanded="false" />
+            <element signature="e#3295#3335#0" expanded="false" />
             <marker date="1479890504777" expanded="false" signature="1005:1238" ph="{...}" />
           </folding>
         </state>
@@ -915,8 +933,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bancomat.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="133" column="0" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
+        <state relative-caret-position="440">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding>
             <element signature="e#142#682#0" expanded="false" />
             <element signature="e#755#976#0" expanded="false" />
@@ -924,6 +942,7 @@
             <element signature="e#1880#2193#0" expanded="false" />
             <element signature="e#2195#2820#0" expanded="false" />
             <element signature="e#2822#3293#0" expanded="false" />
+            <element signature="e#3295#3335#0" expanded="false" />
             <marker date="1479890504777" expanded="false" signature="1005:1238" ph="{...}" />
           </folding>
         </state>
