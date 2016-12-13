@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/d/ITS/C-C++/repository/tsam-c-/13-12/portingc++/EsComplete.cpp
+iomanip
+-
+EsComplete.h
+/cygdrive/d/ITS/C-C++/repository/tsam-c-/13-12/portingc++/EsComplete.h
+
+/cygdrive/d/ITS/C-C++/repository/tsam-c-/13-12/portingc++/EsComplete.h
+iostream
+-
+
+/cygdrive/d/ITS/C-C++/repository/tsam-c-/13-12/portingc++/es_complete.h
+stdio.h
+-
+stdlib.h
+-
+
+/cygdrive/d/ITS/C-C++/repository/tsam-c-/13-12/portingc++/main.cpp
+es_complete.h
+/cygdrive/d/ITS/C-C++/repository/tsam-c-/13-12/portingc++/es_complete.h
+EsComplete.h
+/cygdrive/d/ITS/C-C++/repository/tsam-c-/13-12/portingc++/EsComplete.h
+string.h
+-
+

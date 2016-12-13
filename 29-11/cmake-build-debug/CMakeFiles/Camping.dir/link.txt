@@ -1,0 +1,1 @@
+/usr/bin/cc  -g  -Wl,--enable-auto-import CMakeFiles/Camping.dir/main.c.o CMakeFiles/Camping.dir/Camping/camping.c.o CMakeFiles/Camping.dir/Camping/housing.c.o  -o Camping.exe -Wl,--out-implib,libCamping.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

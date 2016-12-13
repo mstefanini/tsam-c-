@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/d/ITS/C-C++/repository/tsam-c-/13-12/matrix/MyMatrix.cpp
+time.h
+-
+cstdlib
+-
+iostream
+-
+fstream
+-
+MyMatrix.h
+/cygdrive/d/ITS/C-C++/repository/tsam-c-/13-12/matrix/MyMatrix.h
+
+/cygdrive/d/ITS/C-C++/repository/tsam-c-/13-12/matrix/MyMatrix.h
+
+/cygdrive/d/ITS/C-C++/repository/tsam-c-/13-12/matrix/main.cpp
+iostream
+-
+MyMatrix.h
+/cygdrive/d/ITS/C-C++/repository/tsam-c-/13-12/matrix/MyMatrix.h
+

@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/d/ITS/C-C++/repository/tsam-c-/29-11/Camping/camping.c
+camping.h
+/cygdrive/d/ITS/C-C++/repository/tsam-c-/29-11/Camping/camping.h
+
+/cygdrive/d/ITS/C-C++/repository/tsam-c-/29-11/Camping/camping.h
+time.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
+/cygdrive/d/ITS/C-C++/repository/tsam-c-/29-11/Camping/housing.c
+time.h
+-
+housing.h
+/cygdrive/d/ITS/C-C++/repository/tsam-c-/29-11/Camping/housing.h
+
+/cygdrive/d/ITS/C-C++/repository/tsam-c-/29-11/Camping/housing.h
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+
+/cygdrive/d/ITS/C-C++/repository/tsam-c-/29-11/main.c
+Camping/camping.h
+/cygdrive/d/ITS/C-C++/repository/tsam-c-/29-11/Camping/camping.h
+Camping/housing.h
+/cygdrive/d/ITS/C-C++/repository/tsam-c-/29-11/Camping/housing.h
+
